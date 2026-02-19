@@ -71,6 +71,14 @@ def kmeancluster(df):
         kmeans = KMeans(n_clusters=k, init="k-means++", random_state=42)
         kmeans.fit(df)
         wcss.append(kmeans.inertia_)
+    
+    plt.figure()
+    plt.plot(k_range, wcss, marker='o')
+    plt.xlabel("Number of Clusters (k)")
+    plt.ylabel("WCSS")
+    plt.title("Elbow Method")
+    plt.show()
+
 
     kl = KneeLocator(k_range, wcss, curve="convex", direction="decreasing")
     optimal_k = kl.elbow
