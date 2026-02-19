@@ -37,16 +37,12 @@ Veri seti üzerinde **Temel Bileşen Analizi (PCA)** ile boyut indirgeme yapılm
 ## 📊 Görselleştirmeler
 > **Not:** Kod çalıştırıldığında elde edilen grafik çıktıları aşağıda örneklenmiştir.
 
-### 1. K-Means Dirsek Yöntemi (Elbow Method)
-![Elbow Curve](https://via.placeholder.com/800x400.png?text=Buraya+Elbow+Egrisi+Gelecek) 
-*KneeLocator ile optimum küme sayısının belirlenmesi.*
-
-### 2. Küme Dağılımları (Cluster Distributions)
-![Boxplots](https://via.placeholder.com/800x400.png?text=Buraya+Boxplot+Gorseli+Gelecek) 
+### 1. Küme Dağılımları (Cluster Distributions)
+![Boxplots](images/Figure_2.png) 
 *Çocuk ölümleri (child_mort) ve gelir seviyesinin (income) kümelere göre istatistiksel dağılımı.*
 
-### 3. Küresel Aksiyon Haritası (Global Action Map)
-![World Map](image_1.png) 
+### 2. Küresel Aksiyon Haritası (Global Action Map)
+![World Map](images/kmean.png) 
 *K-Means sonuçlarına göre dünyadaki finansal yardım öncelik haritası.*
 
 ## 💻 Kurulum ve Kullanım
