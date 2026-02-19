@@ -37,16 +37,12 @@ Dimensionality reduction was performed on the dataset using **Principal Componen
 ## 📊 Visualizations
 > **Note:** The graphical outputs obtained when the code is run are exemplified below.
 
-### 1. K-Means Elbow Method & Variance 
-![Elbow Curve](https://via.placeholder.com/800x400.png?text=Insert+Elbow+Curve+Screenshot+Here) 
-*Determining the optimal number of clusters with KneeLocator.*
-
-### 2. Cluster Distributions
-![Boxplots](https://via.placeholder.com/800x400.png?text=Insert+Boxplot+Screenshot+Here) 
+### 1. Cluster Distributions
+![Boxplots](images/Figure_2.png) 
 *Statistical distribution of child mortality (child_mort) and income level across clusters.*
 
-### 3. Global Action Map
-![World Map](image_1.png) 
+### 2. Global Action Map
+![World Map](images/kmean.png) 
 *Financial aid priority map around the world based on K-Means results.*
 
 ## ⚙️ Installation & Usage
